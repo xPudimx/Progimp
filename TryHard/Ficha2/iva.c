@@ -2,6 +2,8 @@
 #include <stdlib.h>
 
 int main(int argc, char const *argv[]) {
-	
-	return 0;
+  float n;
+  scanf("%f", &n);
+  printf("%.2f\n", n+(n*0.23));
+  return 0;
 }
