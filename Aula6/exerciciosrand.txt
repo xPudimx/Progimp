@@ -1,0 +1,8 @@
+a) int 0 a 9; DONE
+b) int 1 a 10;
+c) int 0 a 100;
+d) int -10 a 10;
+e) double 0.0 a 1.0;
+f) double -10 a 10;
+g) int par 0 a 100;
+h)int impar 1 a 99;
