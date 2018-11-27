@@ -33,7 +33,7 @@ int strongPass(char str[]){
 int main(int argc, char const *argv[]) {
   char str[MAX];
   printf("String: ");
-  gets(str);
+  fgets(str, MAX, stdin);
   if (strongPass(str)) {
     printf("True\n");
   } else {
