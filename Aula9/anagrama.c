@@ -5,6 +5,9 @@
 #include "/home/hugodias21/Aulas/ProgImp/essentials.h"
 
 int anagrama(char str1[], char str2[]){
+  if(strlen(str1) == 0 && strlen(str2) == 0){
+    return 1;
+  }
   sortChar(str1);
   sortChar(str2);
   return strcmp(str1, str2);
