@@ -145,3 +145,14 @@ void sortChar(char str[]) {
     str[j+1] = x;
   }
 }
+
+//Insert Char
+
+void insertChar(char str[], char ch) {
+  int i = strlen(str) - 1;
+  while (i >= 0 && str[i] > ch) {
+    str[i+1] = str[i];
+    i--;
+  }
+  str[i+1] = ch;
+}
